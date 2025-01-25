@@ -1,4 +1,5 @@
-ef login_system(dogry_ulanyjy, dogry_parol, max_gezek):
+
+def login_system(dogry_ulanyjy, dogry_parol, max_gezek):
     gezek = 0
     while gezek < max_gezek:
         ulanyjy_ady = input("Ulanyjy adyny girizin: ")
